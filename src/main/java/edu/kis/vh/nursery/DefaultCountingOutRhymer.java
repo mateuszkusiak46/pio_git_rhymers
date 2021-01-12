@@ -5,7 +5,15 @@ public class DefaultCountingOutRhymer {
 	public static final int STAT_12 = 12;
 	public static final int STAT_1 = -1;
 	private int[] numbers = new int[STAT_12];
-	
+
+	public int getTotal() {
+		return total;
+	}
+
+	public void setTotal(int total) {
+		this.total = total;
+	}
+
 	public int total = STAT_1;
 
 
