@@ -1,3 +1,4 @@
 .idea/
 powp-rhymers.iml
 target/
+*.plantuml
