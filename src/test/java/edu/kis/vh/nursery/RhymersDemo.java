@@ -6,6 +6,12 @@ import edu.kis.vh.nursery.factory.RhymersFactory;
 class RhymersDemo {
 
 	public static void main(String[] args) {
+		RhymersJUnitTest jUnitTest = new RhymersJUnitTest();
+		jUnitTest.testCallCheck();
+		jUnitTest.testCountIn();
+		jUnitTest.testCountOut();
+		jUnitTest.testIsFull();
+		jUnitTest.testPeekaboo();
 		RhymersFactory factory = new DefaultRhymersFactory();
 
 		testRhymers(factory);
